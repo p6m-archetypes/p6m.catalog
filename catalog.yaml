@@ -35,7 +35,7 @@ entries:
       entries:
         - archetype:
             description: Rust GraphQL Domain Gateway
-            source: git@github.com:p6m-dev/rust-service-graphql-p6m.archetype.git
+            source: git@github.com:p6m-dev/rust-service-graphql.archetype.git
   - group:
       description: Frontend
       entries:
@@ -64,13 +64,13 @@ entries:
               project-suffix: "Inferencer"
   - catalog:
       description: AI Engine
-      source: git@github.com:p6m-dev/p6m-aiml.catalog.git
+      source: git@github.com:p6m-dev/aiml.catalog.git
   - catalog:
       description: Data Engine
-      source: git@github.com:p6m-dev/p6m-data.catalog.git
+      source: git@github.com:p6m-dev/data.catalog.git
   - catalog:
       description: Orchestration Engine
-      source: git@github.com:p6m-dev/p6m-orchestration.catalog.git
+      source: git@github.com:p6m-dev/orchestration.catalog.git
   - group:
       description: Platform
       entries:
