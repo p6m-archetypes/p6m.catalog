@@ -35,7 +35,7 @@ entries:
       entries:
         - archetype:
             description: Rust GraphQL Domain Gateway
-            source: git@github.com:p6m-dev/rust-service-graphql.archetype.git
+            source: git@github.com:p6m-dev/rust-graphql-federated-gateway.archetype.git
   - group:
       description: Frontend
       entries:
