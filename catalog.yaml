@@ -46,7 +46,7 @@ entries:
       description: .NET
       entries:
         - archetype:
-            description: .Net gRPC Service
+            description: .NET gRPC Service
             source: git@github.com:p6m-dev/dotnet-grpc-service.archetype.git
   - group:
       description: Python
