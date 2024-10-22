@@ -42,7 +42,12 @@ entries:
         - archetype:
             description: "JavaScript Frontend"
             source: git@github.com:p6m-dev/javascript-front-end.archetype.git
-
+  - group:
+      description: .NET
+      entries:
+        - archetype:
+            description: .Net gRPC Service
+            source: git@github.com:p6m-dev/dotnet-grpc-service.archetype.git
   - group:
       description: Python
       entries:
