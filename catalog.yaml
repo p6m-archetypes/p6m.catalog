@@ -48,6 +48,9 @@ entries:
         - archetype:
             description: .NET gRPC Service
             source: git@github.com:p6m-dev/dotnet-grpc-service.archetype.git
+        - archetype:
+            description: .NET GraphQL Domain Gateway
+            source: git@github.com:p6m-dev/dotnet-graphql-domain-gateway.archetype.git
   - group:
       description: Python
       entries:
