@@ -28,6 +28,9 @@ entries:
             description: Java GraphQL Domain Gateway
             source: git@github.com:p6m-dev/java-spring-boot-graphql-domain-gateway.archetype.git
         - archetype:
+            description: Java REST Domain Gateway
+            source: git@github.com:p6m-dev/java-spring-boot-rest-domain-gateway.archetype.git
+        - archetype:
             description: Java Platform Libraries
             source: git@github.com:p6m-dev/java-platform-libs.archetype.git
   - group:
