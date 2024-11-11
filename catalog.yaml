@@ -54,6 +54,9 @@ entries:
         - archetype:
             description: .NET GraphQL Domain Gateway
             source: git@github.com:p6m-dev/dotnet-graphql-domain-gateway.archetype.git
+        - archetype:
+            description: .NET REST Domain Gateway
+            source: git@github.com:p6m-dev/dotnet-rest-domain-gateway.archetype.git
   - group:
       description: Python
       entries:
