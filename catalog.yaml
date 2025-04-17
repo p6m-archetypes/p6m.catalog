@@ -8,105 +8,105 @@ entries:
       entries:
         - archetype:
             description: Java gRPC Service
-            source: git@github.com:p6m-dev/java-spring-boot-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/java-spring-boot-grpc-service.archetype.git
             answers:
               project-suffix: "Service"
         - archetype:
             description: Java gRPC Orchestrator
-            source: git@github.com:p6m-dev/java-spring-boot-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/java-spring-boot-grpc-service.archetype.git
             answers:
               project-suffix: "Orchestrator"
         - archetype:
             description: Java gRPC Adapter
-            source: git@github.com:p6m-dev/java-spring-boot-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/java-spring-boot-grpc-service.archetype.git
             answers:
               project-suffix: "Adapter"
         - archetype:
             description: Java gRPC Drools Assessor
-            source: git@github.com:p6m-dev/java-spring-boot-grpc-assessor.archetype.git
+            source: git@github.com:p6m-archetypes/java-spring-boot-grpc-assessor.archetype.git
         - archetype:
             description: Java GraphQL Domain Gateway
-            source: git@github.com:p6m-dev/java-spring-boot-graphql-domain-gateway.archetype.git
+            source: git@github.com:p6m-archetypes/java-spring-boot-graphql-domain-gateway.archetype.git
         - archetype:
             description: Java REST Domain Gateway
-            source: git@github.com:p6m-dev/java-spring-boot-rest-domain-gateway.archetype.git
+            source: git@github.com:p6m-archetypes/java-spring-boot-rest-domain-gateway.archetype.git
         - archetype:
             description: Java Platform Libraries
-            source: git@github.com:p6m-dev/java-platform-libs.archetype.git
+            source: git@github.com:p6m-archetypes/java-platform-libs.archetype.git
   - group:
       description: Rust
       entries:
         - archetype:
             description: Rust GraphQL Domain Gateway
-            source: git@github.com:p6m-dev/rust-graphql-federated-gateway.archetype.git
+            source: git@github.com:p6m-archetypes/rust-graphql-federated-gateway.archetype.git
   - group:
       description: Frontend
       entries:
         - archetype:
             description: "JavaScript Frontend"
-            source: git@github.com:p6m-dev/javascript-front-end.archetype.git
+            source: git@github.com:p6m-archetypes/javascript-front-end.archetype.git
   - group:
       description: .NET
       entries:
         - archetype:
             description: .NET gRPC Service
-            source: git@github.com:p6m-dev/dotnet-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/dotnet-grpc-service.archetype.git
         - archetype:
             description: .NET GraphQL Domain Gateway
-            source: git@github.com:p6m-dev/dotnet-graphql-domain-gateway.archetype.git
+            source: git@github.com:p6m-archetypes/dotnet-graphql-domain-gateway.archetype.git
         - archetype:
             description: .NET REST Domain Gateway
-            source: git@github.com:p6m-dev/dotnet-rest-domain-gateway.archetype.git
+            source: git@github.com:p6m-archetypes/dotnet-rest-domain-gateway.archetype.git
   - group:
       description: Python
       entries:
         - archetype:
             description: Python Project Scaffolding
-            source: git@github.com:p6m-dev/python-project-scaffolding.archetype.git
+            source: git@github.com:p6m-archetypes/python-project-scaffolding.archetype.git
         - archetype:
             description: Python Chatbot Service
-            source: git@github.com:p6m-dev/python-chatbot.archetype.git
+            source: git@github.com:p6m-archetypes/python-chatbot.archetype.git
         - archetype:
             description: Python gRPC Service
-            source: git@github.com:p6m-dev/python-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/python-grpc-service.archetype.git
             answers:
               project-suffix: "Service"
         - archetype:
             description: Python Inferencer
-            source: git@github.com:p6m-dev/python-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/python-grpc-service.archetype.git
             answers:
               project-suffix: "Inferencer"
   - catalog:
       description: AI Engine
-      source: git@github.com:p6m-dev/aiml.catalog.git
+      source: git@github.com:p6m-archetypes/aiml.catalog.git
   - catalog:
       description: Data Engine
-      source: git@github.com:p6m-dev/data.catalog.git
+      source: git@github.com:p6m-archetypes/data.catalog.git
   - catalog:
       description: Orchestration Engine
-      source: git@github.com:p6m-dev/orchestration.catalog.git
+      source: git@github.com:p6m-archetypes/orchestration.catalog.git
   - group:
       description: Platform
       entries:
         - archetype:
             description: GraphQL Federated Gateway
-            source: git@github.com:p6m-dev/rust-graphql-federated-gateway.archetype.git
+            source: git@github.com:p6m-archetypes/rust-graphql-federated-gateway.archetype.git
 
   - group:
       description: Architectures
       entries:
         - archetype:
             description: Transactional Architecture Builder
-            source: git@github.com:p6m-dev/transactional-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/transactional-architecture-builder.archetype.git
         - archetype:
             description: Domain Architecture Builder
-            source: git@github.com:p6m-dev/domain-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/domain-architecture-builder.archetype.git
         - archetype:
             description: ML Architecture Builder
-            source: git@github.com:p6m-dev/ml-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/ml-architecture-builder.archetype.git
         - archetype:
             description: E-Commerce Platform Architecture
-            source: git@github.com:p6m-dev/transactional-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/transactional-architecture-builder.archetype.git
             answers:
               features: ["Federated GraphQL Gateway", "Java Libraries"]
               services: ["cart", "catalog", "payment", "customer", "auth"]
@@ -116,7 +116,7 @@ entries:
               orchestrators: ["checkout", "enrollment"]
         - archetype:
             description: Loyalty Platform Architecture
-            source: git@github.com:p6m-dev/transactional-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/transactional-architecture-builder.archetype.git
             answers:
               features: ["Federated GraphQL Gateway", "Java Libraries"]
               services: ["cart", "catalog", "payment", "customer", "auth"]
@@ -126,7 +126,7 @@ entries:
               orchestrators: ["checkout", "enrollment"]
         - archetype:
             description: Payments Platform Architecture
-            source: git@github.com:p6m-dev/transactional-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/transactional-architecture-builder.archetype.git
             answers:
               features: ["Federated GraphQL Gateway", "Java Libraries"]
               services: ["cart", "catalog", "payment", "customer", "auth"]
@@ -136,7 +136,7 @@ entries:
               orchestrators: ["checkout", "enrollment"]
         - archetype:
             description: Frontend/Backend Architecture
-            source: git@github.com:p6m-dev/transactional-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/transactional-architecture-builder.archetype.git
             answers:
               features: ["Federated GraphQL Gateway", "Java Libraries"]
               services: ["cart", "catalog", "payment", "customer", "auth"]
@@ -146,7 +146,7 @@ entries:
               orchestrators: ["checkout", "enrollment"]
         - archetype:
             description: Frontend+GraphQL Blueprint
-            source: git@github.com:p6m-dev/transactional-architecture-builder.archetype.git
+            source: git@github.com:p6m-archetypes/transactional-architecture-builder.archetype.git
             answers:
               features:
                 ["Federated GraphQL Gateway", "Java Libraries", "Frontend"]
@@ -161,4 +161,4 @@ entries:
       entries:
         - archetype:
             description: Documentation Book (mdbook)
-            source: git@github.com:p6m-dev/mdbook.archetype.git
+            source: git@github.com:p6m-archetypes/mdbook.archetype.git
