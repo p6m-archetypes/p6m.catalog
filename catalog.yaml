@@ -93,6 +93,13 @@ entries:
             source: git@github.com:p6m-archetypes/rust-graphql-federated-gateway.archetype.git
 
   - group:
+      description: CI
+      entries:
+        - archetype:
+            description: Github Action
+            source: git@github.com:p6m-archetypes/github-action.archetype.git#v1
+
+  - group:
       description: Architectures
       entries:
         - archetype:
