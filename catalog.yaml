@@ -4,6 +4,12 @@ requires:
 
 entries:
   - group:
+      description: JavaScript / TypeScript
+      entries:
+        - archetype:
+            description: NextJS TypeScript - Basic
+            source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git
+  - group:
       description: Java
       entries:
         - archetype:
