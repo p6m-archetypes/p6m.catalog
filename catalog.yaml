@@ -9,6 +9,9 @@ entries:
         - archetype:
             description: NextJS TypeScript - Basic
             source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git
+        - archetype:
+            description: Svelte TypeScript - Basic
+            source: git@github.com:p6m-archetypes/typescript-svelte-basic.archetype.git
   - group:
       description: Java
       entries:
