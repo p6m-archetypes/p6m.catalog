@@ -8,10 +8,10 @@ entries:
       entries:
         - archetype:
             description: NextJS TypeScript - Basic
-            source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git
+            source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git#1
         - archetype:
             description: Svelte TypeScript - Basic
-            source: git@github.com:p6m-archetypes/typescript-svelte-basic.archetype.git
+            source: git@github.com:p6m-archetypes/typescript-svelte-basic.archetype.git#1
   - group:
       description: Java
       entries:
