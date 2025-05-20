@@ -11,7 +11,7 @@ entries:
             source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git#v1
         - archetype:
             description: NuxtJS TypeScript - Basic
-            source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git#v1
+            source: git@github.com:p6m-archetypes/typescript-nuxtjs-basic.archetype.git#v1
         - archetype:
             description: Svelte TypeScript - Basic
             source: git@github.com:p6m-archetypes/typescript-svelte-basic.archetype.git#v1
