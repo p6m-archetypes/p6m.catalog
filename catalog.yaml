@@ -12,6 +12,9 @@ entries:
         - archetype:
             description: Svelte TypeScript - Basic
             source: git@github.com:p6m-archetypes/typescript-svelte-basic.archetype.git#v1
+        - archetype:
+            description: VueJS TypeScript - Basic
+            source: git@github.com:p6m-archetypes/typescript-vuejs-basic.archetype.git#v1
   - group:
       description: Java
       entries:
