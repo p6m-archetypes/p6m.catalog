@@ -1,6 +1,6 @@
 ---
 requires:
-  archetect: 2.0.0-ALPHA.6
+  archetect: 2.0.0
 
 entries:
   - group:
@@ -8,6 +8,9 @@ entries:
       entries:
         - archetype:
             description: NextJS TypeScript - Basic
+            source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git#v1
+        - archetype:
+            description: NuxtJS TypeScript - Basic
             source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git#v1
         - archetype:
             description: Svelte TypeScript - Basic
