@@ -7,6 +7,9 @@ entries:
       description: JavaScript / TypeScript
       entries:
         - archetype:
+            description: Angular TypeScript - Basic
+            source: git@github.com:p6m-archetypes/typescript-angular-basic.archetype.git#v1
+        - archetype:
             description: NextJS TypeScript - Basic
             source: git@github.com:p6m-archetypes/typescript-nextjs-basic.archetype.git#v1
         - archetype:
