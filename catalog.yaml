@@ -67,6 +67,9 @@ entries:
       description: .NET
       entries:
         - archetype:
+            description: .NET gRPC Service (Basic)
+            source: git@github.com:p6m-archetypes/dotnet-grpc-service-basic.archetype.git
+        - archetype:
             description: .NET gRPC Service
             source: git@github.com:p6m-archetypes/dotnet-grpc-service.archetype.git
         - archetype:
@@ -78,6 +81,9 @@ entries:
   - group:
       description: Python
       entries:
+        - archetype:
+            description: .Python gRPC Service (uv Basic)
+            source: git@github.com:p6m-archetypes/python-grpc-service-uv-basic.archetype.git
         - archetype:
             description: Python Project Scaffolding
             source: git@github.com:p6m-archetypes/python-project-scaffolding.archetype.git
