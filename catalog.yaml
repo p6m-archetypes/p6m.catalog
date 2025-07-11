@@ -68,10 +68,10 @@ entries:
       entries:
         - archetype:
             description: .NET gRPC Service (Basic)
-            source: git@github.com:p6m-archetypes/dotnet-grpc-service-basic.archetype.git
-        - archetype:
-            description: .NET gRPC Service
-            source: git@github.com:p6m-archetypes/dotnet-grpc-service.archetype.git
+            source: git@github.com:p6m-archetypes/dotnet-grpc-service-basic.archetype.git#v1
+        # - archetype:
+        #     description: .NET gRPC Service
+        #     source: git@github.com:p6m-archetypes/dotnet-grpc-service.archetype.git
         - archetype:
             description: .NET GraphQL Domain Gateway
             source: git@github.com:p6m-archetypes/dotnet-graphql-domain-gateway.archetype.git
