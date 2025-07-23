@@ -91,6 +91,9 @@ entries:
             description: .Python gRPC Service (uv Basic)
             source: git@github.com:p6m-archetypes/python-grpc-service-uv-basic.archetype.git
         - archetype:
+            description: .Python REST Service (uv Basic)
+            source: git@github.com:p6m-archetypes/python-rest-service-uv-basic.archetype.git
+        - archetype:
             description: Python Project Scaffolding
             source: git@github.com:p6m-archetypes/python-project-scaffolding.archetype.git
         - archetype:
