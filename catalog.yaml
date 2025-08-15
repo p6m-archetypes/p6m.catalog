@@ -63,6 +63,15 @@ entries:
         - archetype:
             description: "JavaScript Frontend"
             source: git@github.com:p6m-archetypes/javascript-front-end.archetype.git
+        - archetype:
+            description: ModernJS - TypeScript - Shell
+            source: git@github.com:p6m-archetypes/typescript-modernjs-mfe-shell.archetype.git#v1
+        - archetype:
+            description: ModernJS - TypeScript - Static MFE App
+            source: git@github.com:p6m-archetypes/typescript-modernjs-mfe-app-static.archetype.git#v1
+        - archetype:
+            description: ModernJS - NGINX - Static App Host
+            source: git@github.com:p6m-archetypes/nginx-modernjs-app-host.archetype.git#v1
   - group:
       description: .NET
       entries:
