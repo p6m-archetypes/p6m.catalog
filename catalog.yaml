@@ -84,6 +84,9 @@ entries:
         - archetype:
             description: .NET GraphQL Service
             source: git@github.com:p6m-archetypes/dotnet-graphql-service-basic.archetype.git#v1
+        - archetype:
+            description: .NET Blank Project
+            source: git@github.com:p6m-archetypes/dotnet-blank.archetype.git#v1
         # - archetype:
         #     description: .NET gRPC Service
         #     source: git@github.com:p6m-archetypes/dotnet-grpc-service.archetype.git
@@ -121,6 +124,9 @@ entries:
             source: git@github.com:p6m-archetypes/python-grpc-service.archetype.git
             answers:
               project-suffix: "Inferencer"
+        - archetype:
+            description: Python Blank Project
+            source: git@github.com:p6m-archetypes/python-blank.archetype.git
   - catalog:
       description: AI Engine
       source: git@github.com:p6m-archetypes/aiml.catalog.git
