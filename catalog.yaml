@@ -148,7 +148,10 @@ entries:
       entries:
         - archetype:
             description: Github Action
-            source: git@github.com:p6m-archetypes/github-action.archetype.git#v1
+            source: https://github.com/p6m-archetypes/github-action.archetype.git#v1
+        - archetype:
+            description: Github Workflow
+            source: https://github.com/p6m-archetypes/github-workflow.archetype.git#v1
 
   - group:
       description: Architectures
