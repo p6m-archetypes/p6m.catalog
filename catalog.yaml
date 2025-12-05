@@ -57,6 +57,9 @@ entries:
         - archetype:
             description: Rust GraphQL Domain Gateway
             source: git@github.com:p6m-archetypes/rust-graphql-federated-gateway.archetype.git
+        - archetype:
+            description: Rust gRPC Service (Axum, Modular)
+            source: https://github.com/p6m-archetypes/rust-grpc-service-axum-modular.archetype.git
   - group:
       description: Frontend
       entries:
